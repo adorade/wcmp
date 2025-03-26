@@ -1,10 +1,10 @@
 <service>
-  <id>WCMP PHP</id>
-  <name>WCMP PHP</name>
-  <description>This service runs the WCMP PHP server.</description>
+  <id>WCMP MariaDB</id>
+  <name>WCMP MariaDB</name>
+  <description>This service runs the WCMP MariaDB server.</description>
   <workingdirectory>##WORKINGDIRECTORY##</workingdirectory>
-  <executable>##EXECUTABLE##\php-cgi</executable>
-  <arguments>-b 127.0.0.1:9000</arguments>
+  <executable>##EXECUTABLE##\mariadbd</executable>
+  <arguments></arguments>
   <startmode>Manual</startmode>
   <log mode="roll"></log>
 </service>
